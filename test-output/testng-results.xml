@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[The price of iPhone XR (64GB) - Yellow from Amazon]]>
+    </line>
+    <line>
+      <![CDATA[47,900]]>
+    </line>
+    <line>
+      <![CDATA[The price of iPhone XR (64GB) - Yellow from Flipkart]]>
+    </line>
+    <line>
+      <![CDATA[51,900]]>
+    </line>
+    <line>
+      <![CDATA[The price of iPhone XR (64GB) price is more in the Flipkart website]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32241" started-at="2019-12-25T08:18:53Z" finished-at="2019-12-25T08:19:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32241" started-at="2019-12-25T08:18:53Z" finished-at="2019-12-25T08:19:26Z">
+      <class name="scripts.AmazonpriceTest">
+        <test-method status="PASS" signature="launchapplication()[pri:0, instance:scripts.AmazonpriceTest@2ef5e5e3]" name="launchapplication" is-config="true" duration-ms="8315" started-at="2019-12-25T13:48:53Z" finished-at="2019-12-25T13:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method status="PASS" signature="launchamazon()[pri:0, instance:scripts.AmazonpriceTest@2ef5e5e3]" name="launchamazon" duration-ms="6917" started-at="2019-12-25T13:49:02Z" finished-at="2019-12-25T13:49:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The price of iPhone XR (64GB) - Yellow from Amazon]]>
+            </line>
+            <line>
+              <![CDATA[47,900]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method status="PASS" signature="closeapplication()[pri:0, instance:scripts.AmazonpriceTest@2ef5e5e3]" name="closeapplication" is-config="true" duration-ms="215" started-at="2019-12-25T13:49:09Z" finished-at="2019-12-25T13:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapplication -->
+      </class> <!-- scripts.AmazonpriceTest -->
+      <class name="scripts.FlipkartpriceTest">
+        <test-method status="PASS" signature="launchapplication()[pri:0, instance:scripts.FlipkartpriceTest@36d4b5c]" name="launchapplication" is-config="true" duration-ms="12043" started-at="2019-12-25T13:49:09Z" finished-at="2019-12-25T13:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method status="PASS" signature="launchflipkart()[pri:0, instance:scripts.FlipkartpriceTest@36d4b5c]" name="launchflipkart" duration-ms="4649" started-at="2019-12-25T13:49:21Z" finished-at="2019-12-25T13:49:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The price of iPhone XR (64GB) - Yellow from Flipkart]]>
+            </line>
+            <line>
+              <![CDATA[51,900]]>
+            </line>
+            <line>
+              <![CDATA[The price of iPhone XR (64GB) price is more in the Flipkart website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchflipkart -->
+        <test-method status="PASS" signature="closeapplication()[pri:0, instance:scripts.FlipkartpriceTest@36d4b5c]" name="closeapplication" is-config="true" duration-ms="69" started-at="2019-12-25T13:49:26Z" finished-at="2019-12-25T13:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapplication -->
+      </class> <!-- scripts.FlipkartpriceTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
